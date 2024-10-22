@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="11dp"
+    >
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:gravity="center"
+        android:textSize="32sp"/>
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:layout_marginTop="11dp"/>
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:inputType="phone"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:layout_marginTop="11dp"/>
+    <Button
+        android:id="@+id/actionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Add"
+        android:layout_gravity="end"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="11dp"/>
+</LinearLayout>
